@@ -9,6 +9,11 @@ spring:
           username: yxd1599@163.com
           password: YXD19941116@
           basedir: D:\work\spring-boot-demo\SpringCloud_Sell\config\basedir
+  rabbitmq:
+    host: 192.168.99.100
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
